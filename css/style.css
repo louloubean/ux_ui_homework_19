@@ -353,7 +353,7 @@ h1 {
         "two"
         "three"
         "five";
-        grid-template-rows: 300px 300px 200px 200px 100px;
+        grid-template-rows: 310px 300px 200px 200px 100px;
         grid-template-columns: 1fr;
         margin: 20px 20px 20px 20px;
         text-align: center;
