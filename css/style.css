@@ -296,6 +296,7 @@ h1 {
     }
 
     .hero-section .container .heroImg {
+        width: auto;
         max-width: 100%;
         height: auto;
     }
