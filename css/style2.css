@@ -67,6 +67,7 @@ h2 {
     background-color: #817EC0;
 }
 
+
 .footer-section2 h2 {
     color: white;
     text-align: center;
@@ -189,8 +190,13 @@ button:hover {
     
     .footer-section2 img {
         padding-top: 20px;
-        text-align: center;
-        margin-left: 80px  !important;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+      
+        
     }
 
     .center {

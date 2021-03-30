@@ -326,7 +326,7 @@ h1 {
         "two"
         "three"
         "four";   
-        grid-template-rows: 210px 210px 210px 210px;
+        grid-template-rows: 200px 210px 210px 210px;
         grid-template-columns: 1fr;
         margin: 20px 5px 20px 5px;
                
