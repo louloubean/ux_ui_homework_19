@@ -142,7 +142,7 @@ h1 {
 }
 
 
-.heroImg {
+.hero-section .container .heroImg {
     max-width: 100%;
     height: auto;
 }
@@ -294,6 +294,12 @@ h1 {
         margin-left: 10px;
         margin-top: 80px;
     }
+
+    .hero-section .container .heroImg {
+        max-width: 100%;
+        height: auto;
+    }
+
     .hero-section h3 {
         margin-right: 10px;
         margin-left: 10px;
@@ -423,7 +429,7 @@ h1 {
 
 }
 
-
+/*
 .preloader {
     position: fixed;
     width: 100%;
@@ -451,4 +457,4 @@ h1 {
     100% {
       transform: rotate(720deg);
     }
-  }
+  }*/
