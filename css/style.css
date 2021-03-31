@@ -19,7 +19,7 @@ h1 {
    
     font-family: "Prata", serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     color: #3E649E;
     
 }
@@ -84,7 +84,7 @@ p {
     display: inline;
 }
 h1 {
-    padding-left: 10px;
+    padding-left: 15px;
 }
 .main-nav {
     margin-left: auto;
@@ -274,8 +274,13 @@ h1 {
    
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+
+
+
+
+
+/* Tablet and phone devices (980 and down) */
+@media only screen and (max-width: 980px) {
 
     .main-header .container{
         margin-left: 10px;

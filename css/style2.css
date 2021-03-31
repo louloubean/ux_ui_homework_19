@@ -133,8 +133,28 @@ button:hover {
 
 
 
+
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+
+
+.workContainer {
+            
+    
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+.workContainer .content:hover { 
+    transform: none;
+}
+
+}
+
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
     .work h2 {
         margin-bottom: 0;
@@ -170,7 +190,8 @@ button:hover {
     }
 
     img {
-        width: 300px;
+        width: auto;
+        max-width: 100%;
         height: auto;
         text-align: center;
         margin-left: 0px !important;

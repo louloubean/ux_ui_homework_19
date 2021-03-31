@@ -8,6 +8,8 @@ body {
     padding-bottom: 80px;
 }
 
+
+
 .contact .container {
     color: white;
     text-align: left;
@@ -50,6 +52,33 @@ body {
     
 }
 
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .contact .container h2, h3, .email {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    email {
+        transition: none;
+    }
+
+    .email:hover {
+        transform: none;
+    }
+
+    .contact .container img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        padding-top: 50px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+}
+
+
+
+
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -62,23 +91,22 @@ body {
 
     .email {
         transition: none;
+        font-size: 28px;
     }
 
     .email:hover {
         transform: none;
     }
 
-    .contact .container img {
-        padding-top: 50px;
-        padding-bottom: 5px;
-        padding-left: 10px;
-    }
+   
 
     .contact .container img {
-        padding-top: 20px;
         width: auto;
         max-width: 100%;
         height: auto;
+        padding-top: 50px;
         padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
     }
 }
